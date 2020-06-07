@@ -1,1 +1,6 @@
-{}
+{
+    "user_cart_is_empty": "cart is empty, continue shopping and add items to it",
+    "product_not_in_cart": "product was not found in cart",
+
+    "unexpected_user_data": "Ooops, json data you sent does not match some fields"
+}

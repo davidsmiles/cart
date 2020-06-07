@@ -14,7 +14,7 @@ class Carts(db.Document):
     user_id = db.StringField(required=True)
     status = db.StringField(max_length=10)
     products = db.ListField(db.EmbeddedDocumentField(Product), default=list)
-    sub_total = db.IntField(default=0)
+    subtotal = db.IntField(default=0)
 
     meta = {
         'indexes': ['user_id']
