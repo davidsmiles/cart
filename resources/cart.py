@@ -57,7 +57,7 @@ class Cart(Resource):
     def delete(cls):
         
         user_id = get_jwt_identity()
-        product_id = request.args['productId']
+        product_id = request.args['product-id']
         
         user_cart = Carts.objects(user_id=user_id)
 
